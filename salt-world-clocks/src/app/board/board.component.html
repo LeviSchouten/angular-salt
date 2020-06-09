@@ -1,0 +1,10 @@
+<div>
+  <ul>
+    <li *ngFor="let location of locations">
+      <app-clock
+        [city]="location.city"
+        [continent]="location.continent"
+      ></app-clock>
+    </li>
+  </ul>
+</div>
